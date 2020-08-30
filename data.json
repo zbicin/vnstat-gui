@@ -1,1 +1,588 @@
-{"vnstatversion":"1.14","jsonversion":"1","interfaces":[{"id":"wwp0s26u1u3i4","nick":"wwp0s26u1u3i4","created":{"date":{"year":2019,"month":9,"day":3}},"updated":{"date":{"year":2020,"month":8,"day":30},"time":{"hour":19,"minutes":26}},"traffic":{"total":{"rx":142834710,"tx":4181387},"days":[{"id":0,"date":{"year":2020,"month":8,"day":20},"rx":1340305,"tx":47655},{"id":1,"date":{"year":2020,"month":8,"day":19},"rx":5254298,"tx":146679},{"id":2,"date":{"year":2020,"month":8,"day":18},"rx":1095766,"tx":38221},{"id":3,"date":{"year":2020,"month":8,"day":17},"rx":6520251,"tx":249005},{"id":4,"date":{"year":2020,"month":8,"day":16},"rx":4966648,"tx":153031},{"id":5,"date":{"year":2020,"month":8,"day":15},"rx":4554783,"tx":151751},{"id":6,"date":{"year":2020,"month":8,"day":14},"rx":2540899,"tx":84100},{"id":7,"date":{"year":2020,"month":8,"day":11},"rx":2940175,"tx":133695},{"id":8,"date":{"year":2020,"month":8,"day":10},"rx":358060,"tx":63272},{"id":9,"date":{"year":2020,"month":8,"day":9},"rx":7787419,"tx":211869},{"id":10,"date":{"year":2020,"month":8,"day":8},"rx":1727998,"tx":51876},{"id":11,"date":{"year":2020,"month":8,"day":7},"rx":1930810,"tx":54835},{"id":12,"date":{"year":2020,"month":8,"day":6},"rx":202631,"tx":13090},{"id":13,"date":{"year":2020,"month":8,"day":5},"rx":5928773,"tx":205249},{"id":14,"date":{"year":2020,"month":8,"day":3},"rx":543400,"tx":26488},{"id":15,"date":{"year":2020,"month":8,"day":2},"rx":931062,"tx":32124},{"id":16,"date":{"year":2020,"month":7,"day":30},"rx":347121,"tx":15798},{"id":17,"date":{"year":2020,"month":7,"day":17},"rx":1055780,"tx":28366},{"id":18,"date":{"year":2020,"month":7,"day":16},"rx":4022892,"tx":106820},{"id":19,"date":{"year":2020,"month":7,"day":15},"rx":3026338,"tx":87644},{"id":20,"date":{"year":2020,"month":7,"day":14},"rx":260304,"tx":14652},{"id":21,"date":{"year":2020,"month":7,"day":12},"rx":10753163,"tx":290906},{"id":22,"date":{"year":2020,"month":7,"day":11},"rx":1729,"tx":709},{"id":23,"date":{"year":2020,"month":7,"day":10},"rx":1806857,"tx":63551},{"id":24,"date":{"year":2020,"month":7,"day":9},"rx":8191654,"tx":205184},{"id":25,"date":{"year":2020,"month":7,"day":8},"rx":387862,"tx":17430},{"id":26,"date":{"year":2020,"month":7,"day":6},"rx":3367579,"tx":92874},{"id":27,"date":{"year":2020,"month":7,"day":5},"rx":6834402,"tx":162301},{"id":28,"date":{"year":2020,"month":7,"day":4},"rx":1982879,"tx":47347},{"id":29,"date":{"year":2020,"month":7,"day":3},"rx":2151024,"tx":36324}],"months":[{"id":0,"date":{"year":2020,"month":8},"rx":48623278,"tx":1662940},{"id":1,"date":{"year":2020,"month":7},"rx":54496745,"tx":1478216},{"id":2,"date":{"year":2020,"month":6},"rx":39712123,"tx":1039853},{"id":3,"date":{"year":2019,"month":9},"rx":2564,"tx":378}],"tops":[{"id":0,"date":{"year":2020,"month":6,"day":21},"time":{"hour":12,"minutes":14},"rx":11977107,"tx":299176},{"id":1,"date":{"year":2020,"month":7,"day":12},"time":{"hour":11,"minutes":56},"rx":10753163,"tx":290906},{"id":2,"date":{"year":2020,"month":6,"day":20},"time":{"hour":9,"minutes":27},"rx":8384017,"tx":234662},{"id":3,"date":{"year":2020,"month":7,"day":9},"time":{"hour":17,"minutes":42},"rx":8191654,"tx":205184},{"id":4,"date":{"year":2020,"month":8,"day":9},"time":{"hour":12,"minutes":0},"rx":7787419,"tx":211869},{"id":5,"date":{"year":2020,"month":7,"day":5},"time":{"hour":11,"minutes":57},"rx":6834402,"tx":162301},{"id":6,"date":{"year":2020,"month":8,"day":17},"time":{"hour":14,"minutes":13},"rx":6520251,"tx":249005},{"id":7,"date":{"year":2020,"month":7,"day":1},"time":{"hour":0,"minutes":0},"rx":5985823,"tx":183057},{"id":8,"date":{"year":2020,"month":8,"day":5},"time":{"hour":17,"minutes":0},"rx":5928773,"tx":205249},{"id":9,"date":{"year":2020,"month":8,"day":19},"time":{"hour":19,"minutes":2},"rx":5254298,"tx":146679}],"hours":[{"id":8,"date":{"year":2020,"month":8,"day":20},"rx":1,"tx":2},{"id":17,"date":{"year":2020,"month":8,"day":20},"rx":47329,"tx":2566},{"id":18,"date":{"year":2020,"month":8,"day":20},"rx":72224,"tx":4234},{"id":19,"date":{"year":2020,"month":8,"day":20},"rx":83976,"tx":5058},{"id":20,"date":{"year":2020,"month":8,"day":20},"rx":60532,"tx":3623},{"id":21,"date":{"year":2020,"month":8,"day":20},"rx":543563,"tx":17965},{"id":22,"date":{"year":2020,"month":8,"day":20},"rx":532681,"tx":14209}]}}]}
+{
+    "interfaces": [
+        {
+            "created": {
+                "date": {
+                    "day": 3,
+                    "month": 9,
+                    "year": 2019
+                }
+            },
+            "id": "wwp0s26u1u3i4",
+            "nick": "wwp0s26u1u3i4",
+            "traffic": {
+                "days": [
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 0,
+                        "rx": 1340305,
+                        "tx": 47655
+                    },
+                    {
+                        "date": {
+                            "day": 19,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 1,
+                        "rx": 5254298,
+                        "tx": 146679
+                    },
+                    {
+                        "date": {
+                            "day": 18,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 2,
+                        "rx": 1095766,
+                        "tx": 38221
+                    },
+                    {
+                        "date": {
+                            "day": 17,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 3,
+                        "rx": 6520251,
+                        "tx": 249005
+                    },
+                    {
+                        "date": {
+                            "day": 16,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 4,
+                        "rx": 4966648,
+                        "tx": 153031
+                    },
+                    {
+                        "date": {
+                            "day": 15,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 5,
+                        "rx": 4554783,
+                        "tx": 151751
+                    },
+                    {
+                        "date": {
+                            "day": 14,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 6,
+                        "rx": 2540899,
+                        "tx": 84100
+                    },
+                    {
+                        "date": {
+                            "day": 11,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 7,
+                        "rx": 2940175,
+                        "tx": 133695
+                    },
+                    {
+                        "date": {
+                            "day": 10,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 8,
+                        "rx": 358060,
+                        "tx": 63272
+                    },
+                    {
+                        "date": {
+                            "day": 9,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 9,
+                        "rx": 7787419,
+                        "tx": 211869
+                    },
+                    {
+                        "date": {
+                            "day": 8,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 10,
+                        "rx": 1727998,
+                        "tx": 51876
+                    },
+                    {
+                        "date": {
+                            "day": 7,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 11,
+                        "rx": 1930810,
+                        "tx": 54835
+                    },
+                    {
+                        "date": {
+                            "day": 6,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 12,
+                        "rx": 202631,
+                        "tx": 13090
+                    },
+                    {
+                        "date": {
+                            "day": 5,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 13,
+                        "rx": 5928773,
+                        "tx": 205249
+                    },
+                    {
+                        "date": {
+                            "day": 3,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 14,
+                        "rx": 543400,
+                        "tx": 26488
+                    },
+                    {
+                        "date": {
+                            "day": 2,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 15,
+                        "rx": 931062,
+                        "tx": 32124
+                    },
+                    {
+                        "date": {
+                            "day": 30,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 16,
+                        "rx": 347121,
+                        "tx": 15798
+                    },
+                    {
+                        "date": {
+                            "day": 17,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 17,
+                        "rx": 1055780,
+                        "tx": 28366
+                    },
+                    {
+                        "date": {
+                            "day": 16,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 18,
+                        "rx": 4022892,
+                        "tx": 106820
+                    },
+                    {
+                        "date": {
+                            "day": 15,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 19,
+                        "rx": 3026338,
+                        "tx": 87644
+                    },
+                    {
+                        "date": {
+                            "day": 14,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 20,
+                        "rx": 260304,
+                        "tx": 14652
+                    },
+                    {
+                        "date": {
+                            "day": 12,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 21,
+                        "rx": 10753163,
+                        "tx": 290906
+                    },
+                    {
+                        "date": {
+                            "day": 11,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 22,
+                        "rx": 1729,
+                        "tx": 709
+                    },
+                    {
+                        "date": {
+                            "day": 10,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 23,
+                        "rx": 1806857,
+                        "tx": 63551
+                    },
+                    {
+                        "date": {
+                            "day": 9,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 24,
+                        "rx": 8191654,
+                        "tx": 205184
+                    },
+                    {
+                        "date": {
+                            "day": 8,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 25,
+                        "rx": 387862,
+                        "tx": 17430
+                    },
+                    {
+                        "date": {
+                            "day": 6,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 26,
+                        "rx": 3367579,
+                        "tx": 92874
+                    },
+                    {
+                        "date": {
+                            "day": 5,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 27,
+                        "rx": 6834402,
+                        "tx": 162301
+                    },
+                    {
+                        "date": {
+                            "day": 4,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 28,
+                        "rx": 1982879,
+                        "tx": 47347
+                    },
+                    {
+                        "date": {
+                            "day": 3,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 29,
+                        "rx": 2151024,
+                        "tx": 36324
+                    }
+                ],
+                "hours": [
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 8,
+                        "rx": 1,
+                        "tx": 2
+                    },
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 17,
+                        "rx": 47329,
+                        "tx": 2566
+                    },
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 18,
+                        "rx": 72224,
+                        "tx": 4234
+                    },
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 19,
+                        "rx": 83976,
+                        "tx": 5058
+                    },
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 20,
+                        "rx": 60532,
+                        "tx": 3623
+                    },
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 21,
+                        "rx": 543563,
+                        "tx": 17965
+                    },
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 22,
+                        "rx": 532681,
+                        "tx": 14209
+                    }
+                ],
+                "months": [
+                    {
+                        "date": {
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 0,
+                        "rx": 48623278,
+                        "tx": 1662940
+                    },
+                    {
+                        "date": {
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 1,
+                        "rx": 54496745,
+                        "tx": 1478216
+                    },
+                    {
+                        "date": {
+                            "month": 6,
+                            "year": 2020
+                        },
+                        "id": 2,
+                        "rx": 39712123,
+                        "tx": 1039853
+                    },
+                    {
+                        "date": {
+                            "month": 9,
+                            "year": 2019
+                        },
+                        "id": 3,
+                        "rx": 2564,
+                        "tx": 378
+                    }
+                ],
+                "tops": [
+                    {
+                        "date": {
+                            "day": 21,
+                            "month": 6,
+                            "year": 2020
+                        },
+                        "id": 0,
+                        "rx": 11977107,
+                        "time": {
+                            "hour": 12,
+                            "minutes": 14
+                        },
+                        "tx": 299176
+                    },
+                    {
+                        "date": {
+                            "day": 12,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 1,
+                        "rx": 10753163,
+                        "time": {
+                            "hour": 11,
+                            "minutes": 56
+                        },
+                        "tx": 290906
+                    },
+                    {
+                        "date": {
+                            "day": 20,
+                            "month": 6,
+                            "year": 2020
+                        },
+                        "id": 2,
+                        "rx": 8384017,
+                        "time": {
+                            "hour": 9,
+                            "minutes": 27
+                        },
+                        "tx": 234662
+                    },
+                    {
+                        "date": {
+                            "day": 9,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 3,
+                        "rx": 8191654,
+                        "time": {
+                            "hour": 17,
+                            "minutes": 42
+                        },
+                        "tx": 205184
+                    },
+                    {
+                        "date": {
+                            "day": 9,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 4,
+                        "rx": 7787419,
+                        "time": {
+                            "hour": 12,
+                            "minutes": 0
+                        },
+                        "tx": 211869
+                    },
+                    {
+                        "date": {
+                            "day": 5,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 5,
+                        "rx": 6834402,
+                        "time": {
+                            "hour": 11,
+                            "minutes": 57
+                        },
+                        "tx": 162301
+                    },
+                    {
+                        "date": {
+                            "day": 17,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 6,
+                        "rx": 6520251,
+                        "time": {
+                            "hour": 14,
+                            "minutes": 13
+                        },
+                        "tx": 249005
+                    },
+                    {
+                        "date": {
+                            "day": 1,
+                            "month": 7,
+                            "year": 2020
+                        },
+                        "id": 7,
+                        "rx": 5985823,
+                        "time": {
+                            "hour": 0,
+                            "minutes": 0
+                        },
+                        "tx": 183057
+                    },
+                    {
+                        "date": {
+                            "day": 5,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 8,
+                        "rx": 5928773,
+                        "time": {
+                            "hour": 17,
+                            "minutes": 0
+                        },
+                        "tx": 205249
+                    },
+                    {
+                        "date": {
+                            "day": 19,
+                            "month": 8,
+                            "year": 2020
+                        },
+                        "id": 9,
+                        "rx": 5254298,
+                        "time": {
+                            "hour": 19,
+                            "minutes": 2
+                        },
+                        "tx": 146679
+                    }
+                ],
+                "total": {
+                    "rx": 142834710,
+                    "tx": 4181387
+                }
+            },
+            "updated": {
+                "date": {
+                    "day": 30,
+                    "month": 8,
+                    "year": 2020
+                },
+                "time": {
+                    "hour": 19,
+                    "minutes": 26
+                }
+            }
+        }
+    ],
+    "jsonversion": "1",
+    "vnstatversion": "1.14"
+}
