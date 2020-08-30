@@ -1,6 +1,6 @@
 let vnstatData = null;
 
-void fetch('/data.json')
+void fetch('data.json')
     .then(async (response) => {
         vnstatData = await response.json();
         google.charts.load('current', { 'packages': ['corechart'] });
